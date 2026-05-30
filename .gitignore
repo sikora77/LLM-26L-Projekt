@@ -10,3 +10,4 @@ wheels/
 .venv
 results/*
 runs/*
+mamba_classification_results/*

@@ -1,12 +1,8 @@
 [project]
-name = "mamba-transformer-nlp-comparison"
-version = "0.1.0"
-description = "Comparison of Mamba and Transformer architectures for NLP"
-authors = [{ name = "Your Name", email = "your.email@example.com" }]
 dependencies = [
-    "torch==2.10.0",
-    "torchvision==0.25.0",
-    "torchaudio==2.10.0",
+    "torch==2.5.0",
+    "torchvision",
+    "torchaudio",
     "transformers",
     "datasets",
     "accelerate",
@@ -14,12 +10,14 @@ dependencies = [
     "ipywidgets",
     "evaluate",
     "tensorboard",
-    "mamba-ssm @ https://github.com/state-spaces/mamba/releases/download/v2.3.2/mamba_ssm-2.3.1+cu13torch2.10cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
-    "tensorboard>=2.20.0",
-    "scikit-learn>=1.8.0",
+    "tensorboard",
+    "scikit-learn",
 ]
-requires-python = ">=3.12"
-license = { text = "MIT" }
+name = "mamba-transformer-nlp-comparison"
+version = "0.1.0"
+description = "Comparison of Mamba and Transformer architectures for NLP"
+authors = [{ name = "Your Name", email = "your.email@example.com" }]
+requires-python = ">=3.10"
 
 [build-system]
 requires = ["setuptools>=61.0"]
