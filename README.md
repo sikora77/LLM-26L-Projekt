@@ -20,3 +20,5 @@ Czas treningu dla DistilBert zależy prawie liniowo od długości sekwencji
 Mamba trenuje się dłużej, ale skaluje się lepiej czasowo
 Model Mamba jest około 2x większy niż distillbert(130M vs. 66M parametrów)
 Dla modelu mamba zwiększenie długości sekwencji z 512 na 1024 przynosi niewielkie korzyści , dla modelu DistilBERT pogarsza wyniki
+
+
